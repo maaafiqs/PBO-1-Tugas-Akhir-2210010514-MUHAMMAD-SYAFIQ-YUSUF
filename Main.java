@@ -4,7 +4,7 @@ public class Main {
         Pengguna pengguna = new Pengguna();
         Tamu tamu = new Tamu();
         
-        // Example usages
+
         pengguna.login();
         pengguna.hapus(1);
         
