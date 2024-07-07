@@ -4,13 +4,15 @@ public class Komik extends Buku {
     private String volume;
 
 
+    public String getChapter(){
+        return this.chapter;
+    }
+    
     public void setChapter(String chapter){
         this.chapter = chapter;
     }
     
-    public String getChapter(){
-        return this.chapter;
-    }
+   
 
     public String getIlustrator() {
         return this.ilustrator;
